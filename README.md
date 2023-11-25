@@ -25,5 +25,5 @@ Name     | Description
 memory.stat | 
 
 ## Contributing
-The code structure of cgroupv2_exporter is taken from [node_exporter](https://github.com/prometheus/node_exporter) and adding more collectors is also similar (see [collector package](/collector)).
-The [parsers package](/parsers) provide parsers to convert for most of the cgroup files into p8s metrics.
+The code structure of cgroupv2_exporter is taken from [node_exporter](https://github.com/prometheus/node_exporter) and hence adding more collectors is also similar (see [collector](/collector) package).
+The [parsers](/parsers) package provides parsers which can be used for converting for most of the cgroup files into p8s metrics.
